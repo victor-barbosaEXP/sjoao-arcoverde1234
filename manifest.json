@@ -4,12 +4,16 @@
   "description": "Guia oficial do São João de Arcoverde 2026 — programação, hospedagem, alimentação, transporte e muito mais.",
   "start_url": "/sjoao-arcoverde/index.html",
   "scope": "/sjoao-arcoverde/",
-  "display": "standalone",
+  "display": "fullscreen",
   "orientation": "portrait",
-  "theme_color": "#ff9800",
+  "theme_color": "#000000",
   "background_color": "#111111",
   "lang": "pt-BR",
-  "categories": ["entertainment", "travel", "lifestyle"],
+  "categories": [
+    "entertainment",
+    "travel",
+    "lifestyle"
+  ],
   "icons": [
     {
       "src": "assets/icons/icon-96x96.png",
@@ -45,14 +49,24 @@
       "short_name": "Prog.",
       "description": "Veja a programação do evento",
       "url": "/sjoao-arcoverde/index.html#programacao",
-      "icons": [{ "src": "assets/icons/icon-96x96.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "assets/icons/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
     },
     {
       "name": "Mapa",
       "short_name": "Mapa",
       "description": "Veja o mapa do evento",
       "url": "/sjoao-arcoverde/index.html#mapa",
-      "icons": [{ "src": "assets/icons/icon-96x96.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "assets/icons/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
     }
   ]
 }
